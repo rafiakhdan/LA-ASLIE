@@ -1,0 +1,29 @@
+@font-face{
+    font-family: "Open Sans", sans-serif;
+    src: url(assets/media/OpenSans-Regular.ttf) format("truetype");
+}
+body{
+    background-color: deepskyblue !important;
+}
+header{
+    position: fixed;
+    display: absolute;
+    z-index: 999;
+    width: 100%;
+}
+.jumbotron{
+    background-color: yellow !important;
+    padding: 15em 8em 10em 8em !important;
+}
+.container{
+    margin-top: 10em;
+    color: white;
+}
+.card{
+    color: black;
+}
+.page-footer{
+    background-color: white;
+    padding-top: 5em;
+    padding-bottom: 5em;
+}
